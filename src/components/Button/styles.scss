@@ -30,13 +30,19 @@
     box-shadow: 0 0.5rem 2rem rgba(0, 0, 0, 0.2);
   }
 
-  &_--white {
+  &--white {
     background-color: $color-white;
     color: #777;
 
     &::after {
       background-color: rgba(243, 243, 243, 0.6);
     }
+  }
+
+  &--green {
+    margin-top: 7rem;
+    background-color: $color-primary;
+    color: $color-white;
   }
 
   &::after {

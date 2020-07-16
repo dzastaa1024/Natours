@@ -6,20 +6,20 @@
 
   backface-visibility: hidden;
   margin-bottom: 4rem;
-}
 
-.heading-primary--main {
-  display: block;
-  font-size: 2rem;
-  letter-spacing: 3.5rem;
-  animation: moveInLeft 1s ease-out;
-}
+  &--main {
+    display: block;
+    font-size: 2rem;
+    letter-spacing: 3.5rem;
+    animation: moveInLeft 1s ease-out;
+  }
 
-.heading-primary--sub {
-  display: block;
-  font-size: 1rem;
-  letter-spacing: 1.08rem;
-  animation: movieInRight 1s ease-out;
+  &--sub {
+    display: block;
+    font-size: 1rem;
+    letter-spacing: 1.08rem;
+    animation: movieInRight 1s ease-out;
+  }
 }
 
 .heading-secondary {
@@ -44,12 +44,12 @@
 }
 
 .heading-tertiary {
-  font-size: 1.6rem;
+  font-size: $default-font-size;
   text-transform: uppercase;
 }
 
 .paragraph {
-  font-size: 1.6rem;
+  font-size: $default-font-size;
 
   &:not(:last-child) {
     margin-bottom: 3rem;
