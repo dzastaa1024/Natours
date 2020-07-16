@@ -2,18 +2,19 @@ import React from "react";
 import "./styles.scss";
 import "../../sass/base/_typography.scss";
 import "../../sass/base/_utilities.scss";
+import "../../_grid.scss";
 
 const About = () => {
   return (
     <main>
-      <secion className="section-about">
+      <section className="section-about">
         <div className="u-center-text u-margin-bottom-big">
           <h2 className="heading-secondary">
             Exiting tours for adventours people
           </h2>
         </div>
-        <div className="container">
-          <div className="container_col-1">
+        <div className="row">
+          <div className="col-1-of-2">
             <h3 className="heading-tertiary u-margin-bottom-small">
               You are going to fall in love with nature
             </h3>
@@ -33,7 +34,7 @@ const About = () => {
               Learn more &rarr;
             </a>
           </div>
-          <div className="container_col-2">
+          <div className="col-1-of-2">
             <div className="composition">
               <img
                 src="../../img/nat-1-large.jpg"
@@ -53,7 +54,7 @@ const About = () => {
             </div>
           </div>
         </div>
-      </secion>
+      </section>
     </main>
   );
 };
