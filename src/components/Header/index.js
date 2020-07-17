@@ -20,9 +20,6 @@ const Header = () => {
           <span className="heading-primary--sub">is where life happends</span>
         </h1>
         <Button text={"Discover our tours"} />
-        {/* <a href="#" className="btn btn--white btn--animated">
-          Discover our tours
-        </a> */}
       </div>
     </header>
   );
